@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(../img/bg.jpg);
+    color: #fff;
+    padding-top: 55px;
+    padding-bottom: 265px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 154px;
+}
+
+.logo {
+    width: 269px;
+    height: 55px;
+}
+
+.list {
+    display: flex;
+}
+
+.menu__list__item {
+    margin-left: 45px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu__list__item:first-child {
+    margin-left: 0;
+}
+
+.nav-phone {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-phone::before {
+    content: '';
+    background: url(../img/phone_icon.svg) no-repeat left;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 11px;
+}
+
+.header-text {
+    width: 366px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    margin-bottom: 24px;
+}
+
+.header-title {
+    width: 1168px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    margin-bottom: 40px;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reserve {
+    width: 270px;
+    background-color: #3A4574;
+    padding: 38px 65px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.reserve:hover {
+    background-color: #181d34;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    padding: 38px 60px;
+}
+
+.social-media__list___item {
+    margin-left: 25px;
+    width: 48px;
+    height: 48px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.social-media__list___item:first-child {
+    margin-left: 0;
+}
